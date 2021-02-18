@@ -15,8 +15,14 @@ function App() {
   return (
     <main>
      
-    
-         /**
+    <html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+
+<body>
+<script>
+     /**
      * Decrypt a salted msg using a password.
      * Inspired by https://github.com/adonespitogo
      */
@@ -51,6 +57,14 @@ function App() {
 
         document.write(plainHTML);
         document.close();
+   
+</script>
+<script>
+document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
+</script>
+</body>
+
+</html>
    
     
     
